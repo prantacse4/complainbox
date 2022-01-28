@@ -1,0 +1,49 @@
+.displayCenter {
+    margin: 0 auto;
+    min-height: 90vh !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.leftside{
+    flex: 20% 1;
+    display: flex;
+    flex-direction: column;
+}
+.leftside a{
+    display: block;
+    width: 10rem;
+    background: #e3e3e3;
+    margin: 0.1rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    border-radius: 0.3rem;
+}
+.leftside a:hover{
+    background: #076f8f;
+    color: white;
+}
+
+.rightside{
+    flex: 80%;
+}
+
+.mycard{
+    width: 100%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.mybg{
+    background-color: #c3d6df;
+    color: black;
+}
+
+.gststatus{
+    display: flex;
+}
+.innerstatus{
+    margin: .4rem;
+}
